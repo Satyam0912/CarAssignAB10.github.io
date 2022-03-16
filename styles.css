@@ -1,0 +1,67 @@
+* {
+    /* font-family: 'Supermercado One', cursive; */
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: yellow;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.div1 *, div {
+    padding: 20px 0;
+}
+
+#form1 {
+    height: 250px;
+    border: 4px;
+    border-style: dashed;
+    border-color: black;
+    padding: 15px;
+}
+
+#form1 *, #form1 {
+    background-image: linear-gradient(to left, red, black);
+}
+
+input#submit1{
+    height: 22px;
+    width: 250px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, red, white);
+}
+
+div.image1>img{
+    border-radius: 30px;
+}
+
+.image1 {
+    height: 840px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white ;
+}
+
+#footer1 {
+    text-align: center;
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
